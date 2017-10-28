@@ -104,3 +104,18 @@ li a{
     font-style: italic;
     color: #222;    
 }
+img{
+    max-width: 400px;
+    max-height: 400px;
+}
+@media screen and (max-width: 1309px) {
+    .row{
+        display: block;
+    }
+    [class="col-"] {
+        width: 50%;
+    }
+    h2{
+        width: 100%;
+    }
+}
