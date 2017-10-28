@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta view="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="base.css"/>
+</head>
+<body>
+  <div class="container">
+    <form action="" method="">
+        <div class="row">
+            <div class="col-4">   
+                <img width=420px height=400px src="http://www.numatic-haerson.pl/wp-content/uploads/2015/06/wielofunkcyjny-odkurzacz-domowy-CVC370-5.jpg"/>
+            </div> 
+            <div class="col-2">
+                <h2>Odkurzacz T-350</h2>
+                <p class="tekst">
+                Nowy i wspania³y odkurzacz, cichy i w dobrej cenie
+                    
+                
+                </p>               
+                <li><a class="btn" href="http://localhost/BasicFramework/dane.html">Zobacz mnie</a>
+                </li>
+
+            </div>
+            
+        </div> 
+    </form>
+    <?php
+        
+    $url = $_GET['id'];
+    if($url == 1) {
+        require_once('dane.html');
+    }
+    else {
+        
+    }
+    ?>
+  </div>
+</body>
+</html>
