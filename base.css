@@ -3,7 +3,7 @@
 }
 body{
   margin: 0;
-  background: silver;
+  background: #002a54;
 }
 .container, .row, [class*="col-"]{
   min-height: 25px;
@@ -12,6 +12,7 @@ body{
   border: 5px solid #abc;
   max-width: 1320px;
   margin: 0 auto;
+  background:#eaedf1;
 }
 .row{
   border: 2px solid green;
@@ -21,7 +22,7 @@ body{
   border: 2px solid black;
 }
 .col-1 { width: calc(100% * 1/ 12); }
-.col-2 { width: calc(100% * 2/ 12); }
+.col-2 { width: calc(100% * 2/ 12);background:#e04b27; }
 .col-3 { width: calc(100% * 3/ 12); }
 .col-4 { width: calc(100% * 4/ 12); }
 .col-5 { width: calc(100% * 5/ 12); }
